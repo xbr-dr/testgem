@@ -18,11 +18,8 @@ from langdetect import detect, LangDetectException
 import tempfile
 from openpyxl import load_workbook
 
-# This was the first error: 'punkt_tab' is not a valid NLTK package. Corrected to 'punkt'.
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+nltk.download('punkt_tab')
+
 
 # --------------- Configuration ---------------
 DOCUMENTS_DIR = "data/documents"
