@@ -1,0 +1,13 @@
+streamlit
+faiss-cpu
+nltk
+pandas
+numpy
+PyPDF2
+sentence-transformers
+geopy
+folium
+streamlit-folium
+groq
+langdetect
+openpyxl
